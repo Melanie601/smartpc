@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Audiowide';
+    src: url('Audiowide-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #007BFF;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.945);
+    /* Eliminamos flexbox aquí para que no centre todo verticalmente */
+}
+
+header {
+    background: #003366;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-family: 'Audiowide', sans-serif;
+}
+
+pre#a {
+    font: bold 50px Verdana;
+    color: #db0e0e;
+    margin-bottom: 40px;
+}
+
+.contenedor-cajas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+#caja1, #caja2, #caja3 {
+    border: 3px solid #db0e0e; /* Borde rojo */
+    background-color: #ffeb99;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    text-align: left;
+    overflow: auto;
+    color: #000;
+}
+
+.limpiador {
+    clear: both;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-style: none;
+}
+
+.opciones {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+h2 {
+    background: #0056b3;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px 0;
+    transition: background 0.3s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}

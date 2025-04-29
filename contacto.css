@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Audiowide';
+    src: url('Audiowide-Regular.ttf') format('truetype'); 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #007BFF; 
+    text-align: center;
+    color: rgba(255, 255, 255, 0.945); 
+}
+
+header {
+    background: #003366; 
+    padding: 20px 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: rgb(255, 255, 255); 
+    margin-left: 10px; 
+    font-family: 'Audiowide', sans-serif; 
+}
+
+.logo {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 10px; 
+}
+
+p {
+    font-size: 1.5em;
+    margin: 20px 20px;
+    line-height: 1.6; 
+}
+
+.opciones {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.recuadro {
+    background: rgba(0, 51, 102, 0.8); 
+    border: 2px solid #0056b3; 
+    border-radius: 12px; 
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+}
+
+a {
+    text-decoration: none; 
+}
+
+h2 {
+    background: #0056b3; 
+    color: white; 
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px 0;
+    transition: background 0.3s; 
+    display: inline-block; 
+    cursor: pointer; 
+}
